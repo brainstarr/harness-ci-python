@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_brainstarr_harness_ci_python_1731358765529-pr-trigger-input-set
+  identifier: Build_brainstarr_harness_ci_python_1731358765529prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_brainstarr_harness_ci_python_1731358765529
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
